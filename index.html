@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles1.css">
+    <title>Kouekam Portfolio 2.0</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Kouek's <span>Portfolio.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Accueil</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">A propos</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Compétences</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Mes Services</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projets</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <!-- button fermer -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!-- button derouler -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Salut, <span>Je suis</span>
+                        </h3>
+
+                        <h1 class="home__title">Kouekam Yann Cedrick</h1>
+
+                        <h3 class="home__education">Developpeur Front-End</h3>
+                        <p class="home__description">
+                            Avec des connaissances en développement et
+                            design web, je propose les meilleurs projets
+                            aboutissant à un travail de qualité.
+                        </p>
+
+                        <a href="#contact" class="button">Discutons</a>
+                    </div>
+                    <div class="home__social">
+                        <a href="https://github.com/Cedrickkouek" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="https://twitter.com/cedrickkouek" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/cedrick-kouek-320a06178/" target="_blank"
+                            class="home__social-link">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <svg class="home__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBlob" mask-type="alpha">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+                        </mask>
+                        <g mask="url(#maskBlob)">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+
+                            <rect x="37" width="476" height="630" fill="url(#pattern0)" />
+                        </g>
+
+                        <rect x="37" width="476" height="300" fill="url(#pattern1)" />
+
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+                            </pattern>
+
+                            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+                            </pattern>
+
+                            <!-- Insert your profile (recommended size: 640 x 940) -->
+                            <image class="home__img" id="imageBlob" width="640" height="925" href="./img/Yannn.jpg" />
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h3 class="section__subtitle">
+                        Mon <span> Intro</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        A propos de moi
+                    </h2>
+                    <p class="about__description">
+                        Développeur frontend, je crée des pages web avec
+                        Interface utilisateur UI / UX, j'ai des années d'expérience
+                        et de nombreux clients sont satisfaits des
+                        projets réalisés.
+                    </p>
+
+                    <a href="#contact" class="button">Me contacter</a>
+                </div>
+
+                <div class="about__image">
+                    <svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBorder" mask-type="alpha">
+                            <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                           171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                           448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                           270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                           439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black" />
+                        </mask>
+                        <g mask="url(#maskBorder)">
+                            <rect x="37" width="476" height="630" fill="url(#pattern2)" />
+
+                            <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                           192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                           580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                           40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                           175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black"
+                                stroke-width="10" />
+                        </g>
+
+                        <rect x="37" width="476" height="300" fill="url(#pattern3)" />
+
+                        <defs>
+                            <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+                            </pattern>
+
+                            <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+                            </pattern>
+
+                            <!-- Insert your profile (recommended size: 640 x 940) -->
+                            <image id="imageBorder" class="about__img" width="640" height="940"
+                                href="./img/Yannn.jpg" />
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <div class="skills__container container grid">
+                <div class="skills__data">
+                    <h3 class="section__subtitle">
+                        Mes meilleurs <span>Compétences</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        Mes Compétences
+                    </h2>
+
+                    <p class="skills__description">
+                        Voir pleinement quelles sont les compétences que j'ai
+                        pour développer les projets pour vous.
+                    </p>
+
+                    <a href="#projects" class="button">Voir les projets</a>
+                </div>
+
+                <div class="skills__content">
+                    <ol class="skills__group">
+                        <li class="skills__item">HTML & CSS</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">React</li>
+                        <li class="skills__item">Php</li>
+                    </ol>
+
+                    <ol class="skills__group" start="5">
+                        <li class="skills__item">Git & Github</li>
+                        <li class="skills__item">Figma</li>
+                        <li class="skills__item">Adobe Photoshop</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h3 class="section__subtitle">
+                Mes <span>Services</span>
+            </h3>
+
+            <h2 class="section__title">
+                Ce que je fais
+            </h2>
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-layout-3-line services__icon"></i>
+                    <h2 class="services__title">
+                        Developpeur Web
+                    </h2>
+
+                    <P class="services__description">
+                        Développement de pages web personnalisées.
+                        En utilisant les technologies actuelles et
+                        bibliothèques du domaine du travail.
+                    </P>
+                </article>
+                <article class="services__card">
+                    <i class="ri-pantone-line services__icon"></i>
+                    <h2 class="services__title">
+                        Concepteur UI/UX
+                    </h2>
+
+                    <P class="services__description">
+                        Je propose la conception d'interfaces web et
+                        applications mobiles avec figma, adobe xd
+                        et croquis.
+                    </P>
+                </article>
+                <article class="services__card">
+                    <i class="ri-pen-nib-line services__icon"></i>
+                    <h2 class="services__title">
+                        Conception graphique
+                    </h2>
+
+                    <P class="services__description">
+                        Je réalise des dessins à la demande du client,
+                        conception de bannières, affiches, numérique
+                        dessins entre autres.
+                    </P>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h3 class="section__subtitle">
+                Mes <span>Travaux</span>
+            </h3>
+
+            <h2 class="section__title">
+                Mes projets recent
+            </h2>
+
+            <div class="projects__container container grid">
+
+                <article class="projects__card">
+                    <img src="./img/github.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">MON GITHUB</h2>
+                        <a href="https://github.com/Cedrickkouek" class="projects__button">Voir une demo <i
+                                class="ri-external-link-line"></i></a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./img/kouektv.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">Application de streaming personnalisée</h2>
+                        <a href="#" class="projects__button">Voir une demo <i class="ri-external-link-line"></i></a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./img/covid.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">Application d'information du covid-19</h2>
+                        <a href="https://covid-19-tracker-80372.web.app/" class="projects__button">Voir une demo <i
+                                class="ri-external-link-line"></i></a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./img/ecom.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">Site Ecommerce: En react</h2>
+                        <a href="https://fabricenguiffo.vercel.app/" class="projects__button">Voir une demo <i
+                                class="ri-external-link-line"></i></a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./img/pagenotif.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">Projet Web: Page-de-notification</h2>
+                        <a href="https://cedrickkouek.github.io/Page-de-notification/" class="projects__button">Voir une
+                            demo <i class="ri-external-link-line"></i></a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./img/portfolio.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">Mon premier portfolio</h2>
+                        <a href="https://cedrick-kouekam-portfolio.web.app/" class="projects__button">Voir une demo <i
+                                class="ri-external-link-line"></i></a>
+                    </div>
+                </article>
+
+
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+                Entrons <span> En contact</span>
+            </h3>
+            <h2 class="section__title">
+                Me contacter
+            </h2>
+            <div class="contact__container container grid">
+                <form method="post" action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <input type="text" name="user_name" required placeholder="Entrer votre nom"
+                            class="contact__input">
+                        <input type="email" name="user_email" required placeholder="Entrer votre email"
+                            class="contact__input">
+                    </div>
+                    <textarea name="user_project" required placeholder="Entrer votre message" cols="30" rows="10"
+                        class="contact__input">
+                    </textarea>
+
+                    <p class="contact__message" id="contact-message">
+                    </p>
+
+                    <button type="submit" class="button contact__button">
+                        Envoyer un message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">
+                    Kouekam <span>Yann Cedrick</span>
+                </h1>
+
+                <h2 class="footer__education">
+                    Developpeur Front-End
+                </h2>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/Cedrickkouek" target="_blank" class="footer__social-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+
+                <a href="https://twitter.com/cedrickkouek" target="_blank" class="footer__social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/cedrick-kouek-320a06178/" target="_blank"
+                    class="footer__social-link">
+                    <i class="ri-linkedin-fill"></i>
+                </a>
+            </div>
+            <span class="footer__copy">
+                &#169; Copyright Yann Cedrick Kouekam. All rights reserved
+            </span>
+        </div>
+    </footer>
+    <!--==================== SCROLL UP ====================-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--==================== SCROLLREVEAL ====================-->
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <!--==================== EMAIL JS ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
